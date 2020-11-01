@@ -1,4 +1,4 @@
-hours = 35.0
-rate = 12.50
-pay = hours * rate
-print(pay)
+Hours = int(input("Enter Hours: "))
+Rate = float(input("Enter Rate: "))
+Pay = float(Hours*Rate)
+print("Pay: ",Pay)
